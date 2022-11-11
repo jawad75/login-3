@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.sign-in-parent{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   width: 400px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Sign_in{
+   text-align: center;
+}
+.sign_in_h1 h1{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+.icon i{
+    color: #e9224a;
+border: 1px solid #e9224a; 
+ padding: 10px 14px;
+ border-radius: 4px;
+ margin: 0px 8px;
+}
+input{
+    width: 300px;
+    padding: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e9224a;
+}
+input::placeholder{
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#email{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.forgot_your_password{
+    margin-top: 8px;
+}
+.forgot_your_password p{
+    display: inline;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 1px solid #e9224a;
+}
+.button_div{
+    margin-top: 20px;
+}
+.button_div button{
+    font-family: 'Noto Sans', sans-serif;
+    width: 300px;
+    padding: 12px 0px;
+    border: none;
+    font-size: 13px;
+    background-color: #e9224a;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* sign up */
+.parent_sign_up{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #dc143c;
+    color: rgb(255, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_up_div h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+.sign_up_div p{
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+.sign_up_div button{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 13px 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
